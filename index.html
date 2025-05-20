@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#certification">Certification</a></li>
+      <li><a href="#activities">Activities</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="intro">
+      <img src="/Users/davidsebastianart/Web Portofolio/img/20250112_230740~4.jpg" alt="Your Name">
+      <h1>Hello, I'm David Sebastian Aritonang</h1>
+      <p>I'm a passionate Data Analyst and Software Developer.</p>
+      <button onclick="window.location.href='Resume_2025.pdf';">Download Resume</button>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Data Analysis (EDA)</li>
+      <li>Data Visualization (Power BI, Tableau)</li>
+      <li>Programming (Python, SQL)</li>
+      <li>Analytical Thinking, Problem Solving</li>
+      <li>Communication, Teamwork</li>
+    </ul>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience">
+      <h3>Machine Learning Cohort - Bangkit Academy</h3>
+      <p>Details about your project and skills learned during this experience.</p>
+
+      <h3>Big Data Analytics Internship - Kimia Farma</h3>
+      <p>Details about your internship work on performance analytics and dashboards.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="project">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-item">
+        <h3>Project Name</h3>
+        <p>Short description of the project.</p>
+      </div>
+      <!-- Add more project items here -->
+    </div>
+  </section>
+
+  <!-- Certification Section -->
+  <section id="certification">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Data Analyst Certification</li>
+      <li>DeepLearning.AI TensorFlow Developer Specialization</li>
+      <!-- Add more certifications here -->
+    </ul>
+  </section>
+
+  <!-- Activities Section -->
+  <section id="activities">
+    <h2>Activities</h2>
+    <ul>
+      <li>Wireless LAN Installation Workshop (2023)</li>
+      <li>Stock Technical Analysis Workshop (2022)</li>
+      <li>Cyber Security Workshop (2021)</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="/submit-form" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
